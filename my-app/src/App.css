@@ -1,0 +1,66 @@
+body{
+  background: url(file:///home/anselmo/Downloads/%E2%80%98Everybody%20wants%20to%20build%20and%20nobody%20wants%20to%20do%20maintenance%E2%80%99.gif);
+}
+
+.App {
+  text-align: center;
+}
+.form{
+  width: 300px;
+  height: 340px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #d9d9d980;
+  border-radius: 5px;
+}
+
+.aling{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.forminput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.forminput input{
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.forminput button{
+  padding: 10px;
+  margin: 5px;
+  width: 130px;
+}
+
+.link a{
+  text-decoration: none;
+  font-size: 1px;
+
+}
+.link button{
+  font-size: 15px;
+}
+
+.alingbutton{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.forminput button:hover{
+  background: cornflowerblue;
+  transition: 1s all;
+}
